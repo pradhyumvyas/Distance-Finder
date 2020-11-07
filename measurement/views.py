@@ -10,13 +10,16 @@ import folium
 
 
 def calculateDistanceView(request):
-    obj = get_object_or_404(Measurement, id=1)
+    # obj = get_object_or_404(Measurement, id=1)
+    
     form = MeasurementModelForm(request.POST or None)
     geolocator = Nominatim(user_agent='measurement')
 
     # ip = '72.14.207.99' 
     ip = '47.247.191.26'
     country,city,lat, lon = get_geo(ip)
+
+
     # print('location country ' , country)
     # print('location City ' , city)
     # print('location latitude and longitude ' , lat, lon)
