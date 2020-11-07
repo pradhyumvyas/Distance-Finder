@@ -10,7 +10,7 @@ import folium
 
 
 def calculateDistanceView(request):
-    # obj = get_object_or_404(Measurement, id=1)
+    obj = get_object_or_404(Measurement, id=1)
     
     form = MeasurementModelForm(request.POST or None)
     geolocator = Nominatim(user_agent='measurement')
