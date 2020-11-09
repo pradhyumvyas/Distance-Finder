@@ -10,3 +10,4 @@
 - GeoIP 1.3.2 ,To know more about this library <a href="https://pypi.org/project/GeoIP/">click here</a>
 - GeoPy 2.0.0, To know more about this library <a href="https://pypi.org/project/geopy/">click here</a>
 - Folium Map
+- MaxMind Database
