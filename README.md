@@ -16,3 +16,8 @@
 - I used MVT (Model View Template) for this Project
 - HTML
 - CSS (BootStrap)
+
+
+## Screen shots
+
+![screemshot](./templates/frontEnd.png)
